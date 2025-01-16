@@ -3,7 +3,7 @@ import React,{useState} from 'react';
 
 import { data } from "./data";
 
-function App() {
+export default function App() {
  const [search,setSearch]=useState('');
  console.log(search);
  <form onChange={(e)=>setSearch(e.target.value)}
